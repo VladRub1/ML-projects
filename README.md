@@ -6,3 +6,4 @@
 * **[Other](./Other)**: разные проекты (более теоретические, например, Bias-Variance Decomposition)
 * **[Pandas](./Pandas)**: работа с табличными данными в *Pandas*
 * **[Time Series](./Time%20Series)**: анализ и предсказание _временных рядов_
+* **[Unsupervised](./Unsupervised)**: реализация различных методов обучения без учителя
