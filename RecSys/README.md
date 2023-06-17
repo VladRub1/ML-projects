@@ -9,3 +9,8 @@
 sparse-матрицами хранения информации о взаимодействии юзеров и айтемов.
 
 Также приведены примеры работы разных моделей.
+
+### Содержание:
+* [recommendations-project-RubanovVladislav.ipynb](./recommendations-project-RubanovVladislav.ipynb): проект,
+* [music_dataset.csv](./music_dataset.csv): данные (информация про взаимодействия),
+* [tracks_info.csv](./tracks_info.csv): информация про музыкальные треки.

@@ -22,3 +22,7 @@
 В качестве данных используются эмбеддинги картинок, полученных с помощью сверточного классификатора, из
 [датасета](https://www.kaggle.com/delayedkarma/impressionist-classifier-data) с картинами известных 
 импрессионистов.
+
+### Содержание:
+* [metric-learning-project-RubanovVladislav.ipynb](./metric-learning-project-RubanovVladislav.ipynb): проект,
+* [embeddings](./embeddings): данные.
