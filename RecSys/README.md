@@ -1,16 +1,20 @@
 # RecSys
 
-В данном проекте реализован **end-to-end алгоритм рекомендательной системы** для задачи рекомендации музыки.
+This project implements an **end-to-end algorithm for a recommendation system** 
+for _music recommendations_.
 
-Для отбора кандидатов используются простые memory-based подход и модель со скрытыми переменными (LFM). 
-Для переранжирования среди кандидатов используется градиентный бустинг от `catboost`.
+Simple **memory-based approaches** and a **Latent Factor Model (LFM)** are 
+used for candidate selection. **Gradient Boosting** from **[CatBoost](https://catboost.ai/)** 
+is used for **re-ranking** among the candidates.
 
-Кроме того, в работе реализовано сравнение разных алгоритмов для рекомендаций и работа со сжатыми 
-sparse-матрицами хранения информации о взаимодействии юзеров и айтемов.
+Additionally, the work includes a _comparison of different algorithms for recommendations_ 
+and handling _compressed sparse matrices_ for storing information about 
+user-item interactions.
 
-Также приведены примеры работы разных моделей.
+Examples of different models in action are also provided.
 
-### Содержание:
-* [recommendations-project-RubanovVladislav.ipynb](./recommendations-project-RubanovVladislav.ipynb): проект,
-* [music_dataset.csv](./music_dataset.csv): данные (информация про взаимодействия),
-* [tracks_info.csv](./tracks_info.csv): информация про музыкальные треки.
+### Contents:
+* [recommendations-project-RubanovVladislav.ipynb](./recommendations-project-RubanovVladislav.ipynb): 
+the project
+* [music_dataset.csv](./music_dataset.csv): data (information about user-item interactions)
+* [tracks_info.csv](./tracks_info.csv): information about music tracks

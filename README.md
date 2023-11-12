@@ -1,10 +1,13 @@
-# ML_projects
+# ML-projects
 
-Здесь будут лежать проекты по классическому **Machine Learning**, поделенные на разные задачи:
-* **[Classification](./Classification)**: проекты по задаче классификации
-* **[Linear Regression](./Linear%20Regression)**: разные реализации линейной регрессии + EDA (Exploratory Data Analysis)
-* **[Other](./Other)**: разные проекты (более теоретические, например, Bias-Variance Decomposition)
-* **[Pandas](./Pandas)**: работа с табличными данными в *Pandas*
-* **[RecSys](./RecSys)**: работы в области рекомендательных систем
-* **[Time Series](./Time%20Series)**: анализ и предсказание _временных рядов_
-* **[Unsupervised](./Unsupervised)**: реализация различных методов обучения без учителя
+In this repository, you will find implemented author's projects in classical **Machine Learning**, 
+divided into different tasks:
+* **[Classification](./Classification)**: projects related to _classification_ tasks
+* **[Linear Regression](./Linear%20Regression)**: various custom implementations of 
+_linear regression and EDA_ (Exploratory Data Analysis)
+* **[Other](./Other)**: various projects (more theoretical, for example, working 
+with Bias-Variance Decomposition)
+* **[Pandas](./Pandas)**: advanced work with tabular data in _Pandas_
+* **[RecSys](./RecSys)**: projects in the field of recommendation systems (_RecSys_)
+* **[Time Series](./Time%20Series)**: analysis and prediction of _time series_
+* **[Unsupervised](./Unsupervised)**: implementation of various _unsupervised_ learning methods

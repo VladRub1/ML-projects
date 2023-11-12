@@ -1,11 +1,14 @@
 # Linear Regression
 
-В данном разделе присутствуют различные авторские реализации линейных регрессий:
-* **[Gradient Descent](./Gradient%20Descent)**: представлена **собственная реализация линейной
-регрессии**, а также различных алгоритмов **градиентного спуска** и их сравнение:
-  * с использованием разных функций потерь;
-  * с регуляризацией и без.
+This section features various **custom** implementations of **linear regressions**:
+* **[Gradient Descent](./Gradient%20Descent)**: presents a _custom implementation of linear
+regression_, as well as _various gradient descent algorithms_ and their comparisons:
+  * using different loss functions
+  * with and without regularization
 * **[New York City Taxi Trip Duration](./New%20York%20City%20Taxi%20Trip%20Duration)**:
-реализованы **разведочный анализ данных** (exploratory data analysis — EDA), работа с **картографическими
-данными** (в т.ч. интерактивная визуализация через библиотеку `folium`), **поиск аномалий** в данных
-и применение линейной регрессии для **предсказания времени поездки** на такси в Нью-Йорке.
+implements
+  * exploratory data analysis (_EDA_)
+  * works with _cartographic data_ (including interactive visualization using 
+  the `folium` library), 
+  * _anomaly detection_ in data
+  * applying linear regression for _predicting taxi trip durations_ in New York City

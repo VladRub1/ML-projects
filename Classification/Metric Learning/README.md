@@ -1,28 +1,32 @@
 # Metric Learning
 
-Проект по обучению собственных метрик на основе расстояния Махаланобиса:
+A project focused on **training custom metrics** based on **Mahalanobis distance**:
 * **NCA** (Neighborhood Components Analysis),
 * **LMNN** ( Large Margin Nearest Neighbor Metric Learning), 
 
-а также подбору известных метрик:
-* Минковского (L_1 и L_2),
-* Чебышева,
-* Махаланобиса,
-* косинусная
+as well as selecting known metrics:
+* Minkowski (L_1 and L_2)
+* Chebyshev
+* Mahalanobis
+* Cosine
 
-для **метрических методов классификации** в задаче с ограниченным датасетом (определение автора картины).
+for **metric methods of classification** in tasks with **limited datasets** 
+(determining the author of a painting).
 
-Кроме того, в работе рассмотрены другие улучшения работы алгоритма **kNN** для классификации:
-* подбор функции весов,
-* ускорение подсчета метрик с помощью линейного оператора.
+Additionally, the work examines other improvements to the **kNN algorithm** for 
+classification:
+* selection of weight functions
+* speeding up metric calculation using a linear operator
 
-Также проведено сравнение работы классических ML-моделей для классификации с градиентным бустингом на решающих 
-деревьях.
+A **comparison** is also made between the performance of _classic ML models 
+for classification_ and _gradient boosting on decision trees_
+([CatBoost](https://catboost.ai/)).
 
-В качестве данных используются эмбеддинги картинок, полученных с помощью сверточного классификатора, из
-[датасета](https://www.kaggle.com/delayedkarma/impressionist-classifier-data) с картинами известных 
-импрессионистов.
+[Data used](https://www.kaggle.com/delayedkarma/impressionist-classifier-data) 
+include **embeddings** of images obtained using a **convolutional classifier**, 
+from a dataset of paintings by famous impressionists.
 
-### Содержание:
-* [metric-learning-project-RubanovVladislav.ipynb](./metric-learning-project-RubanovVladislav.ipynb): проект,
-* [embeddings](./embeddings): данные.
+### Contents:
+* [metric-learning-project-RubanovVladislav.ipynb](./metric-learning-project-RubanovVladislav.ipynb): 
+the project
+* [embeddings](./embeddings): data.

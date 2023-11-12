@@ -1,9 +1,12 @@
 # New York City Taxi Trip Duration
 
-В данном проекте реализованы разведочный анализ данных (exploratory data analysis — EDA), 
-работа с картографическими данными (в т.ч. интерактивная визуализация через библиотеку `folium`), 
-поиск аномалий и трендов в данных, взаимодействие признаков.
+The project demonstrates the application of linear regression with 
+regularization for **predicting taxi trip durations** in New York City.
 
-Кроме того, продемонстрировано применение линейной регрессии с регуляризацией для
-предсказания времени поездки на такси в Нью-Йорке.
-
+This project includes:
+ * **exploratory data analysis (EDA)**
+ * work with **cartographic data** (including _interactive visualization_ using 
+ the `folium` library)
+ * **anomaly and trend detection** in data
+ * **feature interactions**
+ * **learning and comparing** the results of different linear regression models

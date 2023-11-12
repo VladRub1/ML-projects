@@ -1,12 +1,13 @@
 # Bias-Variance Decomposition
 
-В данном проекте реализовано сравнение и анализ различных алгоритмов машинного обучения
-с точки зрения **разложения ошибки на смещение и разброс** (_Bias-Variance Decomposition_).
+This project implements a comparison and analysis of various machine learning 
+algorithms from the perspective of **decomposing error into bias and variance** 
+(_Bias-Variance Decomposition_).
 
-В частности, рассмотрены:
-* линейная регрессия;
-* решающее дерево (одно);
-* случайный лес;
-* градиентный бустинг.
+Specifically, it examines:
+* _Linear Regression_
+* _Decision Tree (single)_
+* _Random Forest_
+* _Gradient Boosting_
 
-Также представлена **визуализация работы алгоритмов**.
+The project also includes **visualization** of the algorithms' performance.

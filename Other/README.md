@@ -1,7 +1,9 @@
 # Other
 
-В данном разделе находятся оригинальные проекты по машинному обучению, которые нельзя вынести
-в отдельную классическую категорию:
-* **[Bias-Variance Decomposition](./Bias-Variance%20Decomposition)**: проект по практической
-реализации теоретической концепции **разложения ошибки на смещение и разброс** (_Bias-Variance Decomposition_).
-Реализовано **сравнение различных алгоритмов машинного обучения** с точки зрения данной концепции.
+This section contains **original machine learning projects** that do not fit 
+into a separate classic category:
+* **[Bias-Variance Decomposition](./Bias-Variance%20Decomposition)**: a project 
+on the practical implementation of the theoretical concept of _decomposing error 
+into bias and variance_ (**Bias-Variance Decomposition**). 
+It includes a **comparison of different machine learning algorithms** from 
+the perspective of this concept.

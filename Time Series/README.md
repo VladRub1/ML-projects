@@ -1,7 +1,7 @@
 # Time Series
 
-Здесь находятся работы, связанные с задачей предсказания временных рядов (Time Series — TS)
+This section contains work related to the task of **predicting time series** (_TS_).
 
-В проекте [TS-etna](./TS-etna-RubanovVladislav.ipynb) можно увидеть решение задачи предсказания **объема снятия и 
-внесения наличности** в банкомат в Турции на основе работы с библиотекой для работы с временными рядами 
-[etna](https://etna.tinkoff.ru/).
+In the project [TS-etna](./TS-etna-RubanovVladislav.ipynb), you can find a solution 
+for predicting the **volume of cash withdrawals and deposits** at an ATM in Turkey, 
+based on the use of the modern **time series library** **[etna](https://etna.tinkoff.ru/)**.

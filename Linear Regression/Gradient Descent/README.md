@@ -1,22 +1,24 @@
 # Gradient Descent
 
-В данном разделе представлена собственная реализация различных алгоритмов градиентного спуска
-для решения задачи регрессии.
+This section presents a **custom** implementation of various 
+**gradient descent algorithms** for solving **regression tasks**:
 
-* **[descents.py](./descents.py)**: **эффективная реализация градиентного спуска**:
-  * для следующих **функций потерь** (с регуляризацией и без):
+* **[descents.py](./descents.py)**: **efficient implementation of gradient descent**:
+  * for the following **loss functions** (with and without regularization):
     * _MSE_
     * _MAE_
     * _LogCosh_
     * _Huber-loss_
-  * и **алгоритмов градиентного спуска**:
-    * полный градиентный спуск (_FGD_)
-    * стохастический градиентный спуск (_SGD_)
-    * градиентный спуск с методом инерции (_Momentum_)
-    * градиентный спуск с адаптивным шагом (_Adam_)
-* **[linear_regression.py](./linear_regression.py)**: программная **реализация линейной регрессии**:
-  * с регуляризацией
-  * без регуляризации
-* **[practice-03-gd-Rubanov.ipynb](./practice-03-gd-Rubanov.ipynb)**: **сравнение** реализованных
-алгоритмов по различным параметрам. Кроме того, **разведочный анализ данных** (EDA) и **визуализация**
-результатов работы алгоритмов.
+  * and **gradient descent algorithms**:
+    * Full Gradient Descent (_FGD_)
+    * Stochastic Gradient Descent (_SGD_)
+    * Momentum-based Gradient Descent (_Momentum_)
+    * Adaptive Step Gradient Descent (_Adam_)
+* **[linear_regression.py](./linear_regression.py)**: software **implementation 
+of linear regression**:
+  * with regularization
+  * without regularization
+* **[practice-03-gd-Rubanov.ipynb](./practice-03-gd-Rubanov.ipynb)**: 
+  * _comparison_ of implemented algorithms across various parameters
+  * exploratory data analysis (_EDA_) 
+  * _visualization_ of the results of the algorithms.

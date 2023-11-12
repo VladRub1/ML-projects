@@ -1,11 +1,12 @@
 # Linear Classification
 
-В данном проекте проведено сравнение и анализ классических методов линейной классификации
-  * логистическая регрессия (_LR_)
-  * метод опорных векторов (_SVM_)
+This project involves a comparison and analysis of classic methods 
+of **linear classification**:
+  * Logistic Regression (_LR_)
+  * Support Vector Machines (_SVM_)
 
-по различным параметрам. Также реализованы:
-* **калибровка вероятностей** для линейных классификаторов;
-* различные методы **обработки категориальных данных**;
-* **отбор признаков** в модели;
-* **оценка экономического эффекта** модели в зависимости от различных гиперпараметров.
+across various parameters. Also implemented are:
+* _probability calibration_ for linear classifiers
+* different methods for _processing categorical data_
+* _feature selection_ in the model
+* _assessment of the economic impact of the model_ depending on various hyperparameters

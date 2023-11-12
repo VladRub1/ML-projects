@@ -1,6 +1,6 @@
 # Pandas
 
-В данном разделе представлены проекты по работе с **табличными данными** с помощью библиотеки
-`pandas`.
+This section features projects that involve working with **tabular data** 
+using the `pandas` library.
 
-Все используемые решения **векторизованы и лишены циклов**.
+All the solutions used are **vectorized and free of loops**.

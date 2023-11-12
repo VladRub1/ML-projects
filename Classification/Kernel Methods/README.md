@@ -1,14 +1,16 @@
 # Kernel Methods
 
-В данном разделе представлен пример реализации **ядровых методов** в машинном обучении на примере
-задачи классификации на примере датасета Fashion MNIST (10 классов).
+This section presents an example of implementing **kernel methods in machine learning**, 
+demonstrated through a classification task using the **Fashion MNIST dataset** (10 classes).
 
-В проекте реализован алгоритм обучения и применения SVM с **ядровым переходом** (с помощью
-аппроксимации ядер через метод RFF — _Random Fourier Features_).
+The project features the development and application of an SVM algorithm with 
+**kernel trick** (using _kernel approximation_ through the method of 
+RFF — _Random Fourier Features_).
 
-Также в работе присутствует **сравнение** разных алгоритмов классификации между собой:
-* ядровой и линейный SVM
-* логистическая регрессия
-* градиентный бустинг в реализации `CatBoost`
+The work also includes a _comparison_ of different classification algorithms:
+* Kernel and Linear SVM
+* Logistic Regression
+* Gradient Boosting with **[CatBoost](https://catboost.ai/)** implementation
 
-Приведены примеры работы всех алгоритмов с **понижением размерности** данных и без него.
+Examples are provided showing all algorithms operating with and without 
+**dimensionality reduction**.

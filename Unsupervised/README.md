@@ -1,15 +1,15 @@
 # Unsupervised
 
-[Здесь](./unsupervised-project-Rubanov.ipynb) можно увидеть реализацию и сравнение следующих **методов обучения
-без учителя**:
-* **кластеризация** (на географических и текстовых данных):
-  * спектральная (собственная реализация)
+[Here](./unsupervised-project-Rubanov.ipynb), you can find the implementation and 
+comparison of the following **unsupervised learning methods**:
+* **Clustering** (on _geographical and textual data_):
+  * Spectral (custom implementation)
   * K-Means
   * DBSCAN
-* **тематическое моделирование текстов**:
-  * K-Means на tf-idf
-  * модель латентного размещения Дирихле (LDA)
+* **Text Topic Modeling:**:
+  * K-Means on tf-idf
+  * Latent Dirichlet Allocation (_LDA_)
 
-Также представлена работа **semi-supervised** методов в машинном обучении:
-* Label Propagation algorithm (LPA)
-* Label Spreading algorithm (LSA)
+The work also includes the application of **semi-supervised methods** in machine learning:
+* Label Propagation algorithm (_LPA_)
+* Label Spreading algorithm (_LSA_)
